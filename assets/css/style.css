@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #fff;
+  color: #ffffff;
   position: relative;
   background: transparent;
 }
@@ -21,7 +21,7 @@ body::before {
   content: "";
   position: fixed;
   background: #040404 url("../img/brad-knight-huWlb1NP67w-unsplash.jpg") top right no-repeat;
-  background-size: contain;
+  background-size: cover;
   left: 0;
   right: 0;
   top: 0;
@@ -82,7 +82,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: #383838;
   line-height: 1;
   display: inline-block;
 }
@@ -90,13 +90,14 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #4d4d4d;
 }
 
 #header h2 span {
-  color: #fff;
+  color: #4d4d4d;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
+  font-weight: bold;
 }
 
 #header img {
@@ -115,7 +116,7 @@ h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #4d4d4d;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -155,7 +156,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9)
 }
 
 #header.header-top .social-links,
@@ -166,6 +167,7 @@ h6 {
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
+  color: #ffffff;
 }
 
 #header.header-top .container {
@@ -223,7 +225,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
+  color: #4d4d4d;
   white-space: nowrap;
   transition: 0.3s;
 }
