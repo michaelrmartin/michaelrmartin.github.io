@@ -80,9 +80,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header h1 a,
+#header h1 a {
+    color: #4d4d4d;
+    line-height: 1;
+    display: inline-block;
+}
+
 #header h1 a:hover {
-  color: #383838;
+  color: #2596be;
   line-height: 1;
   display: inline-block;
 }
@@ -95,7 +100,7 @@ h6 {
 
 #header h2 span {
   color: #4d4d4d;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #2596be;
   padding-bottom: 6px;
   font-weight: bold;
 }
@@ -125,7 +130,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #2596be;
 }
 
 @media (max-width: 992px) {
@@ -167,7 +172,7 @@ h6 {
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
-  color: #ffffff;
+  color: #2596be;
 }
 
 #header.header-top .container {
@@ -244,7 +249,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #2596be;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -261,7 +266,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #2596be;
 }
 
 /**
@@ -1178,7 +1183,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #2596be;
   transition: 0.3s;
 }
 
