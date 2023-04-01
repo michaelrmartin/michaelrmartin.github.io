@@ -86,12 +86,6 @@ h6 {
     display: inline-block;
 }
 
-#header h1 a:hover {
-  color: #2596be;
-  line-height: 1;
-  display: inline-block;
-}
-
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
@@ -169,10 +163,14 @@ h6 {
   display: none;
 }
 
-#header.header-top h1 {
+#header.header-top h1 a {
   margin-right: auto;
   font-size: 36px;
-  color: #2596be;
+  color: #ffffff !important;
+}
+
+#header.header-top h1 {
+  margin-right: auto;
 }
 
 #header.header-top .container {
