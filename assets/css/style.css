@@ -174,6 +174,10 @@ h6 {
   margin-right: auto;
 }
 
+#header.header-top a {
+  color: #fff;
+}
+
 #header.header-top .container {
   display: flex;
   align-items: center;
@@ -904,7 +908,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #2596be;
 }
 
 .portfolio .portfolio-wrap:hover::before {
